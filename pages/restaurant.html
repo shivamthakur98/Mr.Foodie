@@ -1,4 +1,6 @@
+
 <div class="restaurant" ng-if="restaurant.name">
+
     <div class="rest-wrapper">
         <div class="image">
             <img src="{{restaurant.image}}" height="100" width="100">
@@ -48,4 +50,14 @@
 </div>
 
 <div ng-if="message">{{message}}</div>
+</div>
+<div class="restaurant" ng-hide="restaurant.name">
+    <h1>Oops!</h1>
+    <p>We can't seem to find the page you're looking for.</p>
+    <p>Error code: 404</p>
+    <p>Here are some helpful links instead:</p>
+    <ul>
+      <li><a href="#!/home">Home</a></li>
+      <li><a href="#!/">Logout</a></li>
+    </ul>
 </div>

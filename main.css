@@ -21,6 +21,28 @@ body {
     justify-content: center;
     align-items: center;
 }
+.hero-login{
+  background-image: url('https://anandipaliwal.files.wordpress.com/2015/06/food-table-relisted.jpg');
+  background-size: cover;
+  height: 250px;
+  width:100%;
+  border-radius: 4px;
+  color: white;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  margin-bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif;;
+
+}
+.logo{
+  margin-top: 20px;
+  height:122px;
+  width:122px;
+}
 
 #app .navbar {
     color: white;
